@@ -1,0 +1,379 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .topname{
+            background-color: blue;
+            width: 100%;
+            height: 100px;
+            color: white;
+           
+        }
+    </style>
+</head>
+<body>
+    <div style=" text-align: center; ">
+        <div class="topname">
+            <h1 style="padding: 10px 0 0 0;  font-weight: 600;">Navneeth H M </h1>
+            <p style="margin-top: -5px;">Web Developer</p>
+        </div>
+    </div>
+
+    <div style="padding: 10px;">
+        <h2>About Me</h2>
+        <p>I am a Web Developer passion for creating beautiful and functional website.</p>
+    </div>
+
+    <div style="padding: 10px;">
+        <h2>Skills</h2>
+        <p>HTML  , CSS   , Java </p>
+    </div>
+
+    <div style="padding: 10px;">
+        <h2>Contact</h2>
+        <p>Email : hm.navneethhm@gmail.com</p>
+        <p>Linkedin : <a href=""> navneethhm</a></p>
+    </div>
+
+    <script src="first.js">
+
+    </script>
+</body>
+</html> 
+
+the 1st problem statment -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffeeeeee</title>
+    <link rel="shortcut icon" href="https://img.freepik.com/free-vector/coffee-cup-tan-colour_78370-3051.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1712534400&semt=sph" type="image/x-icon">
+
+    <style>
+        .navbarfull{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .shopname{
+            margin-left: 10px;
+        }
+
+        .navetc{
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            gap: 40px;
+        }
+
+        /* .entrypage{
+            background-image: url(https://images.squarespace-cdn.com/content/v1/50c57c9fe4b0e98ba8ac5d3d/1534351405599-657C2NNY5RLSG5X5VO9Z/ke17ZwdGBToddI8pDm48kJGZgPo7Tfb2ohCs4INQNLIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnEFVfDVHmdPxgXXTDx50nv4VEf8pFMoVbSf9Wqxzw5azMYrJSKXaZi6zF3FRoSDKUQ/welcome-coffee-banner.jpg);
+        
+            object-fit: cover;
+            background-size: cover;
+            width: auto;
+            height: 75vh;
+            display: flex;
+            justify-content: center;
+            align-items: ce;
+        } */
+
+
+
+
+        @media(max-width:600px){
+            .entrypage{
+                width: auto;
+                height: 35vh;
+                display: flex;
+            justify-content: center;
+            align-items: first baseline;
+            background-size: cover;
+            }
+        }
+
+
+        @media(max-width:800px){
+            .entrypage{
+                width: auto;
+                height: 45vh;
+                display: flex;
+            justify-content: center;
+            align-items: first baseline;
+            background-size: cover;
+            }
+        }
+
+        .but{
+
+            padding: 10px;
+            margin-top: 60vh;
+            border-radius: 10px;
+            border: transparent;
+
+        }
+
+        @media(max-width:600px){
+            .but{
+                padding: 7px;
+            margin-top: 35vh;
+            margin-left: 70px;
+            }
+        }
+
+        @media(max-width:800px){
+            .but{
+                padding: 2px;
+            margin-top: 40vh;
+            margin-left: 50px;
+            }
+        }
+
+        .butplace{
+        }
+
+        .aboutsec{
+         display: flex;
+         justify-content: center;
+        }
+
+        .abosec{
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            margin: -10px;
+            font-weight: 600;
+        }
+
+        .mainmenu{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+        }
+
+        .menuone{
+            width: 120px;
+            height: 80px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            background-color: whitesmoke;
+        }
+
+        .menuone:hover{
+            border: 1px solid transparent;
+            box-shadow: rgb(180, 165, 88)  0px 7px 29px 0px;
+        }
+
+        .money{
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        .ourmenutext{
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            font-weight: 600;
+            padding: 20px;
+
+        }
+
+        .details{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .butsub{
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .centerrrr{
+        display: flex;
+            justify-content: center;
+            margin: 20px 0 -10px 0;
+        }
+
+        .boxsize{
+            width: 250px;
+            height: 15px;
+            border-color: gainsboro;
+            outline: none;
+        }
+
+        .butstyle{
+             background-color: black;
+             color: white; 
+             padding: 7px 15px;
+             border-radius: 5px;
+             cursor: pointer;
+
+        }
+
+        .butstyle:hover{
+
+        }
+
+        .foot{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* .hello{
+            width: 100%;
+            height: 50px;
+            object-fit: cover;
+
+        } */
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="navbarfull">
+        <div class="shopname">
+            Coffee Shop 
+        </div>
+        <div class="navetc">
+            <p>Home</p>
+            <a href="#abbb" style="color: white;text-decoration: none;">About</a>
+            <a href="#menuuu" style="color: white;text-decoration: none;">Menu</a>
+            <a href="#contecttt" style="color: white;text-decoration: none;">Contact</a>
+        </div>
+    </div>
+
+
+
+    <!-- <div class="entrypage">
+        <div class="butplace">
+            <button class="but">Order now</button>
+        </div>     
+    </div> -->
+
+    <div style="position: relative;" >
+        <div class="hello">
+            <img style="width: 100%; height: 500px;" src="https://images.squarespace-cdn.com/content/v1/50c57c9fe4b0e98ba8ac5d3d/1534351405599-657C2NNY5RLSG5X5VO9Z/ke17ZwdGBToddI8pDm48kJGZgPo7Tfb2ohCs4INQNLIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnEFVfDVHmdPxgXXTDx50nv4VEf8pFMoVbSf9Wqxzw5azMYrJSKXaZi6zF3FRoSDKUQ/welcome-coffee-banner.jpg" alt="">
+        </div> 
+        <div>
+            <button style="position:absolute ; top: 85%;left: 50%; padding: 5px;">Order now</button>
+        </div>  
+    </div>
+
+    <section id="abbb">
+
+    
+    <div class="aboutsec">
+        <div>
+            <div class="abosec">
+                <p>
+                    About Us
+                </p>
+            </div>
+                Established in 2020, coffee shop is dedicated to serving the finest coffee in the town. Our cozy atmospire & friendly staff makes the perfect place to relex  & catch up your friends.
+        </div>
+    </div>
+</section>
+
+<section id="menuuu">
+    <div style="background-color: rgba(194, 192, 192, 0.452); height: 200px;">
+        <div class="ourmenutext">
+            Our Menu
+        </div>
+        <div class="mainmenu">
+            <div class="menuone">
+                <div>
+                    <p style="margin-bottom: -4px;font-weight: 900;">Espreso </p>
+                    <div class="money">
+                        <p> $3</p> 
+                    </div>
+                </div>
+            </div>
+
+        <div class="mainmenu">
+            <div class="menuone">
+                <div>
+                    <p style="margin-bottom: -4px;font-weight: 900;">Cappuccino </p>
+                    <div class="money">
+                        <p> $3.5</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainmenu">
+            <div class="menuone">
+                <div>
+                    <p style="margin-bottom: -4px; font-weight: 900;">Latte</p>
+                    <div class="money">
+                        <p> $4</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+<section id="contecttt">
+    <div class="details">
+        <div>
+            <form action="submit">
+                <div>
+                    <label for="" class="centerrrr">Name</label><br>
+                    <input type="text" class="boxsize">
+                </div>
+                <div>
+                    <label for="" class="centerrrr">Email</label><br>
+                    <input type="text" required class="boxsize">
+                </div>
+                <div>
+                    <label for="" class="centerrrr">Messege</label><br>
+                    <input type="text" required class="boxsize">
+                </div>
+                <div class="butsub">
+                    <div >
+                        <button class="butstyle" onclick="myFunction()" >Submit</button>
+                
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section> 
+<script>
+    function myFunction() {
+        console.log("Navneeth")
+      alert("Hello! I am an alert box!");
+    }
+    </script>
+
+<!-- 
+    <div class="foot">
+        <p>2024  Coffee Shop. Follow us on Instagram , Facebook </p>
+    </div> -->
+
+</body>
+</html>
